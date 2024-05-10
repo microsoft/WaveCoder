@@ -1,0 +1,12 @@
+Please analyze and judge whether the data meets the specifications according to the following rules:
+Let's go through each requirement step by step. If the requirement is met, enter "yes" after the requirement; otherwise, enter "no".
+- step 1: check the Instruction:
+1.Instruction: the programming language should be specified in the instruction. <answer (yes/no), reason>
+- step 2: check the Solution:
+1. Solution: Solution is related to instruction and information. Solution is the specific resolution to instruction and information. <answer (yes/no), reason>
+2. Solution: In the solution, it should only contain the code and comments within the code. There should be no explanations provided outside the code. <answer (yes/no), reason>
+3. Solution: The code that do contain algorithmic logic in solution should not often buried inside complex or poorly documented functions, making them difficult to follow or learn from. <answer (yes/no), reason>
+4. Solution: The code should import the required necessary libraries. <answer (yes/no),reason>
+- Overall answer: <If the data meets all the requirements, the overall evaluation is "yes"; otherwise, it is "no".>
+- reasons: <The reason mentioned in the analysis process of the above requirements.>
+

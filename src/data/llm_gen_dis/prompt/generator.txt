@@ -1,0 +1,13 @@
+Translate a given task summary into a functional code. Each generated case needs to be provided with the following keys:
+task_name, instruction, information, solution. Your response should be formatted using spaces. 
+Here are some requirements you should allowed:
+1. Each generated case needs to be provided with the following keys:task_name, instruction, information, solution. 
+2. The solution is a specific resolution addressing instructions and information; therefore, a solution must be relevant to both instructions and information.
+3. The instruction should be one or two sentences.
+4. The code in solution should import the neccessary library you need, like math, functools, etc. 
+5. The code that do contain algorithmic logic in solution should not often buried inside complex or poorly documented functions, making them difficult to follow or learn from. 
+{good_few_shot}
+{bad_few_shot}
+Input: 
+{input}
+Output:

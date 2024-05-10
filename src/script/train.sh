@@ -1,0 +1,28 @@
+LOG_PATH=train/log.txt
+torchrun --nproc_per_node=8 --master_port=20001 train/train_mem.py \
+    --model_name_or_path deepseek-ai/deepseek-coder-6.7b-base \
+    --data_path data_path \
+    --bf16 True \
+    --tf32 True \
+    --output_dir your_path \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size 2 \
+    --gradient_accumulation_steps 16 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 30 \
+    --optim adafactor \
+    --is_save_loss_spike False \
+    --save_total_limit 17 \
+    --learning_rate 5e-5 \
+    --weight_decay 0. \
+    --warmup_steps 15 \
+    --lr_scheduler_type "linear" \
+    --logging_steps 1 \
+    --fsdp "full_shard auto_wrap" \
+    --adam_epsilon 1e-6 \
+    --fsdp_transformer_layer_cls_to_wrap 'LlamaDecoderLayer' \
+    --model_max_length 2048 \
+    --gradient_checkpointing True \
+    --lazy_preprocess False > $LOG_PATH 2>&1
