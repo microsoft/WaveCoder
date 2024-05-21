@@ -6,7 +6,7 @@ nh3==0.2.14
 numpy==1.26.2
 pydantic==1.10.13
 psutil==5.9.6
-requests==2.31.0
+requests==2.32.0
 rich==13.7.0
 tiktoken==0.5.1
 uvicorn==0.24.0.post1
