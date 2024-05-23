@@ -39,6 +39,7 @@ Repo for "<a href="https://arxiv.org/abs/2312.14187" target="_blank">WaveCoder: 
 
 <!-- - [2023/10/13] 🔥🔥🔥 We release a demo for WaveCoder at [🐯 Gradio](https://955</p></p>7c5365a6f44dc84.gradio.live), try it out!!! -->
 
+- [2024/05/16] WaveCoder paper is accepted by main conference of ACL 2024.
 - [2024/04/10] 🔥🔥🔥 WaveCoder repo, models released at [🤗 HuggingFace]()!
 - [2023/12/26] WaveCoder paper released.
 
