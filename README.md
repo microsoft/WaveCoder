@@ -26,7 +26,7 @@ WaveCoder: Widespread And Versatile Enhanced Code LLM
 </p>
 
 <p align="center">
-Repo for "<a href="https://arxiv.org/abs/2312.14187" target="_blank">WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation</a>" 
+Repo for "<a href="https://arxiv.org/abs/2312.14187" target="_blank">WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation</a>" [ACL 2024 Main]
 </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ WaveCoder 🌊 is a series of large language models (LLMs) for the coding domain
 
 ### Data Decontamination
 
-We use the decontaminated [evol-codealpaca-v1](https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1) dataset (WaveCoder-evol-instruct) and get WaveCoder-Ultra-6.7B.
+We combine our dataset with the decontaminated [evol-codealpaca-v1](https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1) dataset (WaveCoder-evol-instruct) to train WaveCoder-Ultra-6.7B.
 
 <!-- <figure class="half">
   <img src="./imgs/leakage//humaneval_leakage.png" width="320">
