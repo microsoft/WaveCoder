@@ -16,4 +16,4 @@ sentencepiece==0.1.99
 protobuf==4.23.4
 einops==0.7.0
 wandb==0.16.0
-torch==2.1.1
+torch==2.2.0
